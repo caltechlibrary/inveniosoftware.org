@@ -47,5 +47,3 @@ jobs:
           ignore:   ${{github.event.inputs.ignore   || env.ignore}}
           timeout:  ${{github.event.inputs.timeout  || env.timeout}}
           lookback: ${{github.event.inputs.lookback || env.lookback}}
-Save the file, add it to your git repository, and commit the changes.
-(If you did the steps above outside of GitHub) Push your repository changes to GitHub.
